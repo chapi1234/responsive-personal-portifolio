@@ -557,6 +557,7 @@ header .follow a:hover {
   border-radius: .5rem;
 }
 
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
