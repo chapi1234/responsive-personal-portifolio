@@ -457,6 +457,7 @@ header .follow a:hover {
   overflow: hidden;
   border: 1rem solid #fff;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  border-radius: 5rem;
 }
 
 .portifolio .box-container .box img{
@@ -475,9 +476,9 @@ header .follow a:hover {
 .portifolio .box-container .box h3{
   position: absolute;
   bottom: .5rem; left: 1rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #333;
-  text-transform: uppercase; 
+  /* text-transform: uppercase;  */
 }
 
 .portifolio .box-container .box .icons{
@@ -558,6 +559,53 @@ header .follow a:hover {
   border-radius: .5rem;
 }
 
+.contact .row .map{
+
+}
+
+.contact .row form .box,
+.contact .row form textarea{
+  width: 100%;
+  border-bottom: .1rem solid #333;
+  color: #333;
+  text-transform: none;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  margin: 1rem 0; 
+}
+
+.contact .row form .box:focus,
+.contact .row form textarea:focus{
+  border-color: var(--main-color);
+}
+
+.contact .row form .box::placeholder,
+.contact .row form textarea::placeholder{
+  text-transform: capitalize;
+}
+
+.contact .row form textarea{
+  height: 20rem;
+  resize: none;
+}
+
+.contact .row form .btn{
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+footer{
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 2.5rem;
+  text-align: center;
+  color: #666;
+  background: #fff;
+}
+
+footer span{
+  color: var(--main-color);
+}
 
 @media (max-width: 991px) {
   html {
