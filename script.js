@@ -35,6 +35,7 @@ document.querySelectorAll('a').forEach(links => {
 
 // javascript typing part
 
+
 document.addEventListener('DOMContentLoaded', function() {
     const roles = ["Front-end developer","web designer", "graphic designer", "Video Editor", "computative programmer"];
     let roleIndex = 0;
