@@ -37,7 +37,7 @@ document.querySelectorAll('a').forEach(links => {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const roles = ["Front-end developer","web designer", "graphic designer", "Video Editor", "computative programmer"];
+    const roles = ["Full-Stack Web Developer","web designer", "graphic designer", "Video Editor", "computative programmer"];
     let roleIndex = 0;
     const roleElement = document.querySelector('.skills-list');
     const typingSpeed = 100;
